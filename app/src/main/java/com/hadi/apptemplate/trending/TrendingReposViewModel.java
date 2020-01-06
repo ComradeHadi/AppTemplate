@@ -17,5 +17,6 @@ class TrendingReposViewModel {
     @Inject
     TrendingReposViewModel(){
 
+
     }
 }
