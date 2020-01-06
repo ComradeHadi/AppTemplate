@@ -6,6 +6,9 @@ import com.hadi.apptemplate.di.ActivityInjector;
 
 import javax.inject.Inject;
 
+import timber.log.BuildConfig;
+import timber.log.Timber;
+
 public class MyApplication extends Application {
 
     @Inject
@@ -22,6 +25,12 @@ public class MyApplication extends Application {
                 .build();
 
         component.inject(this);
+
+        if(BuildConfig.DEBUG){
+
+            Timber.plant(new Timber.DebugTree());
+
+        }
 
 
     }
