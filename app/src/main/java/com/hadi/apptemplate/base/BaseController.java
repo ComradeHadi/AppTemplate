@@ -25,5 +25,11 @@ public abstract class BaseController extends Controller {
         super.onContextAvailable(context);
     }
 
+    protected void onViewBound(View view){
 
+    }
+
+    protected Disposable[] subscriptions(){
+
+    }
 }
