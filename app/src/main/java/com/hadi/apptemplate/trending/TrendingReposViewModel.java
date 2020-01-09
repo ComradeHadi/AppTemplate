@@ -1,4 +1,4 @@
-package com.hadi.apptemplate.trending;
+package com.hadi.apptemplate.users;
 
 import com.hadi.apptemplate.R;
 import com.hadi.apptemplate.di.ScreenScope;

@@ -25,7 +25,6 @@ public abstract class ServiceModule {
     static Moshi provideMoshi(){
          return new Moshi.Builder()
                  .add(AdapterFactory.create())
-                 .add(new ZoneDateTimeAdapter())
                  .build();
     }
 

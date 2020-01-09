@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.bluelinelabs.conductor.Controller;
 import com.hadi.apptemplate.R;
 import com.hadi.apptemplate.base.BaseActivity;
-import com.hadi.apptemplate.trending.TrendingReposController;
+import com.hadi.apptemplate.users.TrendingReposController;
 
 public class MainActivity extends BaseActivity {
 

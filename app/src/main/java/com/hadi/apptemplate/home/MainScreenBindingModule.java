@@ -2,8 +2,8 @@ package com.hadi.apptemplate.home;
 
 import com.bluelinelabs.conductor.Controller;
 import com.hadi.apptemplate.di.ControllerKey;
-import com.hadi.apptemplate.trending.TrendingReposComponent;
-import com.hadi.apptemplate.trending.TrendingReposController;
+import com.hadi.apptemplate.users.TrendingReposComponent;
+import com.hadi.apptemplate.users.TrendingReposController;
 
 import dagger.Binds;
 import dagger.Module;
